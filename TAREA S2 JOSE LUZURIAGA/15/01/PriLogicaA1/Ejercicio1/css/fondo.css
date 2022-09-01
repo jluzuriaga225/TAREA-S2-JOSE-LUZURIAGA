@@ -1,0 +1,46 @@
+body{
+    background-color: #466f8f;
+    background-image: url(https://us.123rf.com/450wm/pdreams/pdreams1207/pdreams120700246/14652827-luz-azul-números-ilustración-de-fondo.jpg?ver=6);
+    background-size: cover;
+    color:rgb(249, 249, 250);
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #96a2e3;
+}
+.grupo button{
+    border-radius: 10px;
+    margin: 2px;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    background-image: linear-gradient(to right top);
+}
+h1{
+    color:rgba(9, 9, 15, 0.448);
+    font-size: 40px;
+ }
+.opcion{
+    display: block;
+    text-align: center;
+    width:350px;
+    height: 100px;
+    line-height: 50px;
+    font-size: 35px;
+    color:rgb(108, 22, 22);
+    text-decoration: none;
+    font-weight: bold;
+    cursor:pointer ;
+    border-radius: 35px;
+    margin-bottom: 35px;
+    background-image: linear-gradient(to right top, #534b50, #675967, #786881, #84799e, #8a8cbd, #8e93c9, #929bd6, #96a2e3, #a29dde, #ad98d8, #b694d1, #bf8fc9);}

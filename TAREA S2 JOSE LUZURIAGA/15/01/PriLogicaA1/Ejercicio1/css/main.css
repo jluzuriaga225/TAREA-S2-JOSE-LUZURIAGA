@@ -1,0 +1,36 @@
+body{
+    background-color: #567ca0;
+    background-image: url(https://thumbs.gfycat.com/AncientSevereKitten-max-1mb.gif);
+    background-size: cover;
+    color:white;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:rgb(29, 45, 181);
+    font-size: 35px;
+ }
+.opcion{
+    display: block;
+    text-align: center;
+    width:350px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor:pointer ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right top, #9779cf, #9080d3, #8987d7, #838ed9, #7e94da, #7a93df, #7691e3, #7190e8, #7087f0, #757cf6, #806ffa, #8e5ffb);
+}
+.opcion:hover{
+    background-image: linear-gradient(to right top, #3a710c, #6c6d00, #9c6000, #c9470a, #eb1248);
+}
